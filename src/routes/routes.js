@@ -13,6 +13,11 @@ const provideJob = require('../controller/provideJob.controller');
 
 // require('./trainning.routes')(Router);
 
+Router.get('/',async(req,res)=>{
+res.send('ok server is working')
+
+
+});
 
 Router.post('/posttrainning', trainning.postTrainning);
 Router.get('/gettrainning', trainning.getTrainning);
