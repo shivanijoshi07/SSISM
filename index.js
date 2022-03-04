@@ -2,11 +2,6 @@
 const { application } = require("express");
 const express = require("express");
 
-// const TrainnerSchema = require("./src/models/trainner");
-// const TrainningSchema = require("./src/models/trainning");
-// const CompanyVisit = require("./src/models/Company");
-// const PlacedstdSchema = require("./src/models/placed_student");
-// const AlertJobSchema = require("./src/models/AlertJob_Admin");
 // mongoose connection 
 
 require("./src/database/connection");
