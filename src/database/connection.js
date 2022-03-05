@@ -1,6 +1,7 @@
 const mongoose=require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/SSISM",{
+mongoose.connect("mongodb+srv://poonamkh01:poonamkh@cluster0.u0dzt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+,{
       // useCreateIndex:true,
     // useNewUrlparser:true,
     // useUnifiedTopology:true

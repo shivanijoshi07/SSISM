@@ -1,10 +1,11 @@
-// const { application } = require("express");
+
 const { application } = require("express");
 const express = require("express");
 
-// mongoose connection 
 
+// mongoose connection 
 require("./src/database/connection");
+
 
 const app = express();
 const port = process.env.PORT || 7000;
@@ -13,6 +14,7 @@ app.use(express.json());
 const router = require('./src/routes/routes');
 
 app.use('/', router);
+
 
 //  post API In trainner 
 // app.post("/posttrainner", async (req, res) => {

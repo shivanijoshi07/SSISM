@@ -16,8 +16,8 @@ const provideJob = require('../controller/provideJob.controller');
 Router.get('/',async(req,res)=>{
 res.send('ok server is working')
 
-
 });
+
 
 Router.post('/posttrainning', trainning.postTrainning);
 Router.get('/gettrainning', trainning.getTrainning);
@@ -44,5 +44,7 @@ Router.get('/getAlertJob', AlertJob.getAlertJob);
 
 Router.post('/postProvideJob', provideJob.providejobPost);
 Router.get('/getProvideJob', provideJob.getProvidejob);
+
+
 
 module.exports = Router;
