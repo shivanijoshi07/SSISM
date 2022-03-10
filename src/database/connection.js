@@ -4,7 +4,9 @@ mongoose.connect("mongodb+srv://poonamkh01:poonamkh@cluster0.u0dzt.mongodb.net/I
 ,{
       // useCreateIndex:true,
     // useNewUrlparser:true,
-    // useUnifiedTopology:true
+    // useUnifiedTopology:true,
+    // useFindAndModify:false
+
 }).then(()=>{
     console.log("connection Successfull....");
 }).catch((err)=>{
